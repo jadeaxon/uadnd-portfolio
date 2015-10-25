@@ -51,4 +51,45 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-}
+
+    //=============================================================================
+    // Button Handlers
+
+    // Responds to Sunshine app button tap.
+    public void sunshineButtonHandler(View view) {
+        System.out.println("Tapped sunshineButton!");
+    }
+
+    // Responds to Spotify Streamer app button tap.
+    public void spotifyButtonHandler(View view) {
+        System.out.println("Tapped spotifyButton!");
+    }
+
+
+    // Responds to Scores app button tap.
+    public void scoresButtonHandler(View view) {
+        System.out.println("Tapped scoresButton!");
+    }
+
+    // Responds to Library app button tap.
+    public void libraryButtonHandler(View view) {
+        System.out.println("Tapped libraryButton!");
+    }
+
+    // Responds to Build It Bigger app button tap.
+    public void buildItBiggerButtonHandler(View view) {
+        System.out.println("Tapped buildItBiggerButton!");
+    }
+
+    // Responds to XYZ Reader app button tap.
+    public void xyzReaderButtonHandler(View view) {
+        System.out.println("Tapped xyzReaderButton!");
+    }
+
+    // Responds to Captstone app button tap.
+    public void capstoneButtonHandler(View view) {
+        System.out.println("Tapped capstoneButton!");
+    }
+
+
+} // class MainActivity
