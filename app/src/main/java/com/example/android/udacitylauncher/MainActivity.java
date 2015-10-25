@@ -1,5 +1,6 @@
 package com.example.android.udacitylauncher;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,44 +54,66 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
     //=============================================================================
     // Button Handlers
 
     // Responds to Sunshine app button tap.
     public void sunshineButtonHandler(View view) {
         System.out.println("Tapped sunshineButton!");
-    }
+		this.makeToast("Sunshine");
+	}
 
     // Responds to Spotify Streamer app button tap.
     public void spotifyButtonHandler(View view) {
         System.out.println("Tapped spotifyButton!");
+		this.makeToast("Spotify Streamer");
     }
-
 
     // Responds to Scores app button tap.
     public void scoresButtonHandler(View view) {
         System.out.println("Tapped scoresButton!");
+		this.makeToast("Scores");
     }
 
     // Responds to Library app button tap.
     public void libraryButtonHandler(View view) {
         System.out.println("Tapped libraryButton!");
+		this.makeToast("Library");
     }
 
     // Responds to Build It Bigger app button tap.
     public void buildItBiggerButtonHandler(View view) {
         System.out.println("Tapped buildItBiggerButton!");
+		this.makeToast("Built It Bigger");
     }
 
     // Responds to XYZ Reader app button tap.
     public void xyzReaderButtonHandler(View view) {
         System.out.println("Tapped xyzReaderButton!");
+		this.makeToast("XYZ Reader");
     }
 
     // Responds to Captstone app button tap.
     public void capstoneButtonHandler(View view) {
         System.out.println("Tapped capstoneButton!");
+		this.makeToast("Capstone");
     }
 
 
+    //=============================================================================
+    // Private Utility Methods
+	
+	// Pops up a simple toast.
+	private void makeToast(CharSequence message) {
+		// Basic toast.  No butter.
+		Context context = getApplicationContext();
+		int duration = Toast.LENGTH_SHORT;
+		Toast toast = Toast.makeText(context, message, duration);
+		toast.show();
+	}
+
+
 } // class MainActivity
+
+
