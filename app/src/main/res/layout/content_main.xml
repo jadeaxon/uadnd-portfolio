@@ -23,7 +23,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#127412"
+        android:background="#2e7d32"
         android:textColor="#ffffff"
         android:onClick="spotifyButtonHandler" />
 
@@ -37,7 +37,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#127712"
+        android:background="#388e3c"
         android:textColor="#770808"
         android:textAllCaps="false"
         android:onClick="scoresButtonHandler" />
@@ -52,7 +52,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/scoresButton"
         android:layout_alignEnd="@+id/scoresButton"
-        android:background="#117b11"
+        android:background="#43a047"
         android:textColor="#550a0a"
         android:textAllCaps="false"
         android:onClick="libraryButtonHandler" />
@@ -67,7 +67,7 @@
         android:layout_alignEnd="@+id/libraryButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#128312"
+        android:background="#4caf50"
         android:textColor="#5f5f5f"
         android:textAllCaps="false"
         android:onClick="buildItBiggerButtonHandler" />
@@ -82,7 +82,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/buildItBiggerButton"
         android:layout_alignEnd="@+id/buildItBiggerButton"
-        android:background="#138d13"
+        android:background="#66bb6a"
         android:textColor="#1e17dd"
         android:textAllCaps="false"
         android:onClick="xyzReaderButtonHandler" />
@@ -97,8 +97,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/xyzReaderButton"
         android:layout_alignEnd="@+id/xyzReaderButton"
-        android:background="#149614"
-        android:textColor="#034807"
+        android:background="#81c784"
+        android:textColor="#1b5e20"
         android:textAllCaps="false"
         android:onClick="capstoneButtonHandler" />
 
@@ -123,7 +123,7 @@
         android:layout_marginTop="51dp"
         android:layout_alignRight="@+id/spotifyButton"
         android:layout_alignEnd="@+id/spotifyButton"
-        android:background="#0e670e"
+        android:background="#1b5e20"
         android:textColor="#f7ff00"
         android:padding="20dp"
         android:onClick="sunshineButtonHandler"
